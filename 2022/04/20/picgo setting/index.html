@@ -18,24 +18,26 @@
   <meta name="author" content="tsunho12">
   <meta name="keywords" content="">
   
-    <meta name="description" content="问题描述 在 VS Code 中安装 LaTeX Workshop 插件后，如果按command + s保存，会出现如下报错。  Formatting failed. Please refer to LaTeX Workshop Output for details.    解决方法  关闭 LaTeX Workshop 的代码格式化功能  在setting.json中将“editor.form">
+    <meta name="description" content="Picgo配置  设置仓库名：用户名&#x2F;仓库名 设置分支名：之前默认是master，现在是main 设置Token：就是刚刚复制的那一段令牌密令 下面两个非必填    VsCode配置 如同Picgo设置一样   Jsdelivr cdn加速 默认使用github的链接有时候不稳定 https:&#x2F;&#x2F;raw.githubsercontent.com&#x2F;用户名&#x2F;仓库名&#x2F;分支 下面我们该成cdn加速 ht">
 <meta property="og:type" content="article">
-<meta property="og:title" content="macOS下VsCode中LaTeX格式化错误">
-<meta property="og:url" content="http://tsunho12.github.io/2022/04/20/macOS%E4%B8%8BVsCode%E4%B8%ADLaTeX%E6%A0%BC%E5%BC%8F%E5%8C%96%E9%94%99%E8%AF%AF/index.html">
+<meta property="og:title" content="picgo配置">
+<meta property="og:url" content="http://tsunho12.github.io/2022/04/20/picgo%20setting/index.html">
 <meta property="og:site_name" content="Tsunho Choy">
-<meta property="og:description" content="问题描述 在 VS Code 中安装 LaTeX Workshop 插件后，如果按command + s保存，会出现如下报错。  Formatting failed. Please refer to LaTeX Workshop Output for details.    解决方法  关闭 LaTeX Workshop 的代码格式化功能  在setting.json中将“editor.form">
+<meta property="og:description" content="Picgo配置  设置仓库名：用户名&#x2F;仓库名 设置分支名：之前默认是master，现在是main 设置Token：就是刚刚复制的那一段令牌密令 下面两个非必填    VsCode配置 如同Picgo设置一样   Jsdelivr cdn加速 默认使用github的链接有时候不稳定 https:&#x2F;&#x2F;raw.githubsercontent.com&#x2F;用户名&#x2F;仓库名&#x2F;分支 下面我们该成cdn加速 ht">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://pic4.zhimg.com/80/v2-31c0ff38c46cc7384773acc0c46f6ca5.png">
-<meta property="article:published_time" content="2022-04-20T06:42:40.000Z">
-<meta property="article:modified_time" content="2022-04-20T06:45:13.189Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204619.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204708.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204956.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414205101.png">
+<meta property="article:published_time" content="2022-04-20T04:16:17.000Z">
+<meta property="article:modified_time" content="2022-04-20T05:54:56.867Z">
 <meta property="article:author" content="tsunho12">
-<meta property="article:tag" content="LaTeX">
-<meta property="article:tag" content="VsCode">
+<meta property="article:tag" content="picgo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://pic4.zhimg.com/80/v2-31c0ff38c46cc7384773acc0c46f6ca5.png">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204619.png">
   
   
-  <title>macOS下VsCode中LaTeX格式化错误 - Tsunho Choy</title>
+  <title>picgo配置 - Tsunho Choy</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -181,7 +183,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="macOS下VsCode中LaTeX格式化错误">
+            <span class="h2" id="subtitle" title="picgo配置">
               
             </span>
 
@@ -191,8 +193,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-04-20 14:42" pubdate>
-        2022年4月20日 下午
+      <time datetime="2022-04-20 12:16" pubdate>
+        2022年4月20日 中午
       </time>
     </span>
   
@@ -202,7 +204,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      688 字
+      381 字
     </span>
   
 
@@ -211,7 +213,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6 分钟
+      4 分钟
     </span>
   
 
@@ -248,31 +250,42 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">macOS下VsCode中LaTeX格式化错误</h1>
+            <h1 style="display: none">picgo配置</h1>
             
             <div class="markdown-body">
-              <h2 id="问题描述"><a class="markdownIt-Anchor" href="#问题描述"></a> 问题描述</h2>
-<p>在 VS Code 中安装 LaTeX Workshop 插件后，如果按<code>command + s</code>保存，会出现如下报错。</p>
-<blockquote>
-<p>Formatting failed. Please refer to LaTeX Workshop Output for details.</p>
-</blockquote>
-<p><img src="https://pic4.zhimg.com/80/v2-31c0ff38c46cc7384773acc0c46f6ca5.png" srcset="/img/loading.gif" lazyload alt="错误提示" /></p>
-<h2 id="解决方法"><a class="markdownIt-Anchor" href="#解决方法"></a> 解决方法</h2>
-<ol>
-<li><strong>关闭 LaTeX Workshop 的代码格式化功能</strong></li>
-</ol>
-<p>在<code>setting.json</code>中将<code>“editor.formatOnSave:”</code>改为<code>false</code></p>
-<ol start="2">
-<li><strong>自动格式化LaTeX代码（推荐）</strong></li>
-</ol>
-<p>在终端依次执行以下命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">sudo /usr/bin/cpan5.18 Unicode::GCString<br>sudo /usr/bin/cpan5.18 App::cpanminus<br>sudo /usr/bin/cpan5.18 YAML::Tiny<br>sudo /usr/bin/perl5.18 -MCPAN -e <span class="hljs-string">&#x27;install &quot;File::HomeDir&quot;&#x27;</span><br>sudo cpan Log::Log4perl<br>sudo cpan Log::Dispatch<br></code></pre></td></tr></table></figure>
-<p>在终端中使用<code>which latexindent</code>查看所在位置，打开<code>setting.json</code>添加配置，指明<code>latexindent</code>的安装路径。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;latex-workshop.latexindent.path&quot;</span>: <span class="hljs-string">&quot;latexindent所在路径&quot;</span>,<br></code></pre></td></tr></table></figure>
-<h2 id="参照资料"><a class="markdownIt-Anchor" href="#参照资料"></a> 参照资料</h2>
+              <h2 id="picgo配置"><a class="markdownIt-Anchor" href="#picgo配置"></a> Picgo配置</h2>
 <ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/James-Yu/LaTeX-Workshop/issues/376">https://github.com/James-Yu/LaTeX-Workshop/issues/376</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/Glavin001/atom-beautify/issues/1792">https://github.com/Glavin001/atom-beautify/issues/1792</a></li>
+<li>设置仓库名：<code>用户名/仓库名</code></li>
+<li>设置分支名：之前默认是<code>master</code>，现在是<code>main</code></li>
+<li>设置Token：就是刚刚复制的那一段令牌密令</li>
+<li>下面两个非必填</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204619.png" srcset="/img/loading.gif" lazyload alt="Picgo设置" /></p>
+<h2 id="vscode配置"><a class="markdownIt-Anchor" href="#vscode配置"></a> VsCode配置</h2>
+<p>如同Picgo设置一样<br />
+<img src="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204708.png" srcset="/img/loading.gif" lazyload alt="VsCode设置" /></p>
+<h2 id="jsdelivr-cdn加速"><a class="markdownIt-Anchor" href="#jsdelivr-cdn加速"></a> Jsdelivr cdn加速</h2>
+<p>默认使用github的链接有时候不稳定<br />
+<code>https://raw.githubsercontent.com/用户名/仓库名/分支</code><br />
+下面我们该成cdn加速<br />
+<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名</code></p>
+<h2 id="picgo快捷方式"><a class="markdownIt-Anchor" href="#picgo快捷方式"></a> Picgo快捷方式</h2>
+<ul>
+<li>从剪切板上传图片到图床</li>
+<li>Windows/Unix: <code>Ctrl + Alt + u</code></li>
+<li>macOS: <code>Cmd + Opt + u</code></li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414204956.png" srcset="/img/loading.gif" lazyload alt="gif演示" /></p>
+<ul>
+<li>从文件夹上传图片到图床</li>
+<li>Windows/Unix: <code>Ctrl + Alt + e</code></li>
+<li>macOS: <code>Cmd + Opt + e</code></li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/tsunho12/photos_library/img/20220414205101.png" srcset="/img/loading.gif" lazyload alt="gif演示" /></p>
+<ul>
+<li>从输入框中输入图片名称上传到图床</li>
+<li>Windows/Unix: <code>Ctrl + Alt + o</code></li>
+<li>macOS: <code>Cmd + Opt + o</code></li>
 </ul>
 
             </div>
@@ -283,7 +296,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/LaTeX/">LaTeX</a>
+                      <a class="hover-with-bg" href="/categories/markdown/">markdown</a>
                     
                   </div>
                 
@@ -291,9 +304,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/LaTeX/">LaTeX</a>
-                    
-                      <a class="hover-with-bg" href="/tags/VsCode/">VsCode</a>
+                      <a class="hover-with-bg" href="/tags/picgo/">picgo</a>
                     
                   </div>
                 
@@ -310,9 +321,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/04/20/Mac%E4%B8%8B%E5%AE%89%E8%A3%85i386%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7/">
+                      <a href="/2022/04/20/SSH%20skills/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Mac下安装i386编译工具</span>
+                        <span class="hidden-mobile">SSH基本用法</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -320,8 +331,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/04/20/SSH%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/">
-                        <span class="hidden-mobile">SSH基本用法</span>
+                      <a href="/2022/04/20/hello-world/">
+                        <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
