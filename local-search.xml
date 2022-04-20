@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>macOS下VsCode中LaTeX格式化错误</title>
+    <link href="/2022/04/20/macOS%E4%B8%8BVsCode%E4%B8%ADLaTeX%E6%A0%BC%E5%BC%8F%E5%8C%96%E9%94%99%E8%AF%AF/"/>
+    <url>/2022/04/20/macOS%E4%B8%8BVsCode%E4%B8%ADLaTeX%E6%A0%BC%E5%BC%8F%E5%8C%96%E9%94%99%E8%AF%AF/</url>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a class="markdownIt-Anchor" href="#问题描述"></a> 问题描述</h2><p>在 VS Code 中安装 LaTeX Workshop 插件后，如果按<code>command + s</code>保存，会出现如下报错。</p><blockquote><p>Formatting failed. Please refer to LaTeX Workshop Output for details.</p></blockquote><p><img src="https://pic4.zhimg.com/80/v2-31c0ff38c46cc7384773acc0c46f6ca5.png" alt="错误提示" /></p><h2 id="解决方法"><a class="markdownIt-Anchor" href="#解决方法"></a> 解决方法</h2><ol><li><strong>关闭 LaTeX Workshop 的代码格式化功能</strong></li></ol><p>在<code>setting.json</code>中将<code>“editor.formatOnSave:”</code>改为<code>false</code></p><ol start="2"><li><strong>自动格式化LaTeX代码（推荐）</strong></li></ol><p>在终端依次执行以下命令</p><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">sudo /usr/bin/cpan5.18 Unicode::GCString<br>sudo /usr/bin/cpan5.18 App::cpanminus<br>sudo /usr/bin/cpan5.18 YAML::Tiny<br>sudo /usr/bin/perl5.18 -MCPAN -e <span class="hljs-string">&#x27;install &quot;File::HomeDir&quot;&#x27;</span><br>sudo cpan Log::Log4perl<br>sudo cpan Log::Dispatch<br></code></pre></td></tr></table></figure><p>在终端中使用<code>which latexindent</code>查看所在位置，打开<code>setting.json</code>添加配置，指明<code>latexindent</code>的安装路径。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;latex-workshop.latexindent.path&quot;</span>: <span class="hljs-string">&quot;latexindent所在路径&quot;</span>,<br></code></pre></td></tr></table></figure><h2 id="参照资料"><a class="markdownIt-Anchor" href="#参照资料"></a> 参照资料</h2><ul><li><a href="https://github.com/James-Yu/LaTeX-Workshop/issues/376">https://github.com/James-Yu/LaTeX-Workshop/issues/376</a></li><li><a href="https://github.com/Glavin001/atom-beautify/issues/1792">https://github.com/Glavin001/atom-beautify/issues/1792</a></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>LaTeX</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>LaTeX</tag>
+      
+      <tag>VsCode</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>SSH基本用法</title>
     <link href="/2022/04/20/SSH%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
     <url>/2022/04/20/SSH%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</url>
