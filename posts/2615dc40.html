@@ -21,7 +21,7 @@
     <meta name="description" content="在学习《Orange‘S：一个操作系统的实现》时，作者使用nasm和gcc生成ELF文件，然后使用ld命令链接。但是他是在Linux上做的，Mac系统的gcc（clang）只能生成Mac自己的macho64格式的C中间文件，所以需要安装i386编译工具。 由于书中是在IA32上开发的，所以所有的汇编和C语言都必须编译为32位的ELF，所以我选择了i386系列工具。如果有想要其他架构和平台的，过程也">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac下安装i386编译工具">
-<meta property="og:url" content="http://tsunho12.github.io/posts/2615dc40.html">
+<meta property="og:url" content="https://tsunho.me/posts/2615dc40.html">
 <meta property="og:site_name" content="Tsunho Choy">
 <meta property="og:description" content="在学习《Orange‘S：一个操作系统的实现》时，作者使用nasm和gcc生成ELF文件，然后使用ld命令链接。但是他是在Linux上做的，Mac系统的gcc（clang）只能生成Mac自己的macho64格式的C中间文件，所以需要安装i386编译工具。 由于书中是在IA32上开发的，所以所有的汇编和C语言都必须编译为32位的ELF，所以我选择了i386系列工具。如果有想要其他架构和平台的，过程也">
 <meta property="og:locale" content="zh_CN">
@@ -69,7 +69,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"tsunho12.github.io","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":"UA-228173374-1","gtag":"G-NLZDT1B291","tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"kmE7FoHuwL9xaCRd6HpKz8GT-gzGzoHsz","app_key":"ahMRhpymoaKpArqPyjh0TBdh","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"tsunho.me","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":"UA-228173374-1","gtag":"G-NLZDT1B291","tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"kmE7FoHuwL9xaCRd6HpKz8GT-gzGzoHsz","app_key":"ahMRhpymoaKpArqPyjh0TBdh","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
