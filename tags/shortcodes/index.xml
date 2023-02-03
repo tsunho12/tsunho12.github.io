@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shortcodes on Hugo</title>
+    <title>shortcodes on Tsunho&#39;s blog</title>
     <link>https://example.com/tags/shortcodes/</link>
-    <description>Recent content in shortcodes on Hugo</description>
+    <description>Recent content in shortcodes on Tsunho&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
