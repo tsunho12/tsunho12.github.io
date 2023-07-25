@@ -2,64 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tsunho.me/posts/code-content/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/posts/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/tags/privacy/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/tags/shortcodes/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/tags/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tsunho.me/categories/</loc>
+    <loc>https://tsunho12.github.io/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/tags/css/</loc>
+    <loc>https://tsunho12.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/tags/html/</loc>
+    <loc>https://tsunho12.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/tags/markdown/</loc>
+    <loc>https://tsunho12.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/posts/markdown-syntax-guide/</loc>
+    <loc>https://tsunho12.github.io/posts/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/categories/syntax/</loc>
+    <loc>https://tsunho12.github.io/posts/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/categories/themes/</loc>
+    <loc>https://tsunho12.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/posts/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://tsunho12.github.io/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/posts/placeholder-text/</loc>
+    <loc>https://tsunho12.github.io/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tsunho12.github.io/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tsunho12.github.io/posts/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/tags/text/</loc>
+    <loc>https://tsunho12.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/posts/math-typesetting/</loc>
+    <loc>https://tsunho12.github.io/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/tags/emoji/</loc>
+    <loc>https://tsunho12.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/posts/emoji-support/</loc>
+    <loc>https://tsunho12.github.io/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tsunho.me/about/</loc>
+    <loc>https://tsunho12.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>
